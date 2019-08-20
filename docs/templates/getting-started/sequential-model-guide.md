@@ -5,6 +5,9 @@ The `Sequential` model is a linear stack of layers.
 You can create a `Sequential` model by passing a list of layer instances to the constructor:
 
 ```python
+import tensorflow as tf
+tf.compat.v1.get_default_graph
+
 from keras.models import Sequential
 from keras.layers import Dense, Activation
 
